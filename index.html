@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Copy-Paste Hack using JavaScript</h1>
+        <div class="left">
+            <h3>How to reproduce</h3>
+            <p><b>Step 1</b> - Copy this line of code:</p><br>
+            <div id="copyme">echo "This code looks safe!"</div><br><br>
+            <p><b>Step 2</b> - Paste it in a bash terminal or (to stay safe) in the box below:</p>
+            <textarea rows="10" cols="60"></textarea>
+        </div>
+        <div class="right">
+            <h3>How it works behind the scenes</h3>
+            <p>Using plain JavaScript we detect every time there is a "copy" event on that text.<br>
+                When it happens, we set the clipboard content of the user with a different code, as we wish.<br>
+                We also add a "/n" to simulate the Enter key and execute the code right away.<br>
+                <i>Sounds scary, right?</i>
+            </p>
+            <p> The full JavaScript script is less than 10 lines. <br>
+                You can find more details about the exploit on my repository on GitHub.</p>
+        </div>
+        
+        <script src="hack_script.js"></script>
+    </body>
+</html>

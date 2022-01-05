@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Spline+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Spline+Sans:wght@400;600&display=swap');
+
+* {
+    font-family: 'Spline Sans', sans-serif;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+h1{
+    text-align: center;
+}
+
+h2, h3{
+    margin-top: 3em;
+}
+
+#copyme{
+    font-family: 'Inconsolata', monospace;
+    color: white;
+    background-color: black;
+    padding: 1em;
+    display: inline;
+}
+
+.left{
+    float: left; 
+    margin-right: 10em;
+    margin-left: 5em;
+}
+
+.right{
+    overflow: hidden;
+}
+
+@media screen and (max-width: 700px) {
+    .left { 
+     float: none;
+     margin-right: 0;
+     width: auto;
+    }
+}
