@@ -12,4 +12,4 @@ echo "    |_|_        _|_|"
 echo "      |_|      |_|"
 echo ""
 echo "Fortunately, this is just a demostration. A powerful one, I must say."
-read -p "Press enter to exit..."
+read -n 1 -r -s -p $'Press any key to continue...\n'
