@@ -22,7 +22,7 @@ h2, h3{
     color: white;
     background-color: black;
     padding: 1em;
-    display: inline;
+    max-width: 20em;
 }
 
 textarea{
