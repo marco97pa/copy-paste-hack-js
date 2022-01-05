@@ -25,6 +25,10 @@ h2, h3{
     display: inline;
 }
 
+textarea{
+    max-width: 90%;
+}
+
 .left{
     float: left; 
     margin-right: 10em;
@@ -35,10 +39,11 @@ h2, h3{
     overflow: hidden;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
     .left { 
      float: none;
      margin-right: 0;
+     margin-left: 0;
      width: auto;
     }
 }
