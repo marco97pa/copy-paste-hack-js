@@ -22,4 +22,5 @@ document.getElementById('copyme').addEventListener(
 ## How to prevent it from happening
 - Always copy code from trusted sources and websites
 - Always check the code and if you can't understand it, don't run it
+- Use [this **chrome extension**](https://chrome.google.com/webstore/detail/copy-paste-hack-blocker/fkfnmcncicigjajpfdgpkjohbondnkld) to protect yourself 
 - Some modern terminals like Windows Terminal display a warning message whenever you are trying to paste a multiline code (like the one in this exploit) and it will show up the code on the screen before getting executed. Just make sure to not ignore those helpful warnings. 
